@@ -8,9 +8,9 @@ require('Comment').setup({
     ---LHS of toggle mappings in NORMAL mode
     toggler = {
         ---Line-comment toggle keymap
-        line = 'gc',
+        line = 'gbc',
         ---Block-comment toggle keymap
-        block = 'gbc',
+        block = 'gc',
     },
     ---LHS of operator-pending mappings in NORMAL and VISUAL mode
     opleader = {
