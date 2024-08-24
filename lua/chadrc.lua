@@ -13,6 +13,6 @@ M.ui = {
 	-- },
 }
 
- M.mappings = require "custom.mappings"
+ -- M.mappings = require "custom.mappings"
 
 return M

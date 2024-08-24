@@ -56,12 +56,12 @@ return {
   },
   { "folke/neoconf.nvim" },
   {	"williamboman/mason-lspconfig.nvim" },
-  { 
-    "jose-elias-alvarez/null-ls.nvim",
-    config = function()
-      require("configs.null-ls")
-    end,
-  },
+  -- { 
+  --   "jose-elias-alvarez/null-ls.nvim",
+  --   config = function()
+  --     require("configs.null-ls")
+  --   end,
+  -- },
   { "MunifTanjim/eslint.nvim" },
   { "hrsh7th/nvim-cmp" },
   { "hrsh7th/cmp-nvim-lsp" },
@@ -87,7 +87,7 @@ return {
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-       "html", "css", "vue", "javascript", "typescript"
+       "html", "css", "vue", "javascript", "typescript", "python"
   		},
   	},
   },
