@@ -1,6 +1,6 @@
 -- EXAMPLE 
 require('mason-lspconfig').setup({
-  ensure_installed = { 'lua_ls', 'volar', 'tailwindcss', 'eslint', 'tsserver', 'ruff' }
+  ensure_installed = { 'lua_ls', 'volar', 'tailwindcss', 'eslint', 'tsserver' }
 })
 
 local on_attach = require("nvchad.configs.lspconfig").on_attach
@@ -68,9 +68,9 @@ lspconfig.pylsp.setup {
   settings = {
     pylsp = {
       plugins = {
-        black = { enabled = true },
-        ruff = { enabled = true },
+        flake8 = { enabled = true },
         mypy = { enabled = true },
+        black = { enabled = true },
       },
     },
   },
